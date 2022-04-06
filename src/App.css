@@ -1,0 +1,94 @@
+.upper{
+  background-color: rgb(185, 91, 3);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+
+}
+.lower{
+  background-image: linear-gradient(red,yellow);
+  height: 800px;
+  padding-top: 30px;
+}
+.left{
+  padding: 10px;
+  width: 40%;
+  align-items: center;
+}
+.right{
+  padding: 10px;
+  align-items: flex-end;
+  align-content: space-between;
+  width: 60%;
+}
+.left img{
+  width: 30px;
+  height: 30px;
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav a{
+  margin: 20px 30px;
+}
+.burgerIngredients{
+  height: 290px;
+  width: 100%;
+  overflow: auto;
+}
+.ingredientsBlock{
+  width: 400px;
+  border: 3px solid black;
+  margin: 30px 400px;
+  text-align: center;
+  
+}
+.ingredientsBlock p{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.ingrbtns{
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.ingrbtn{
+  border: 0;
+  background-color: rgb(224, 94, 7);
+  padding: 5px;
+  margin: 10px 5px;
+  color: white;
+  cursor: pointer;
+  width: 95px;
+}
+.topside{
+  background-image: url(./pictures/top.jpg);
+  background-size: 300px;
+  height: 110px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bottomside{
+  background-image: url(./pictures/bottom.jpg);
+  background-size: 300px;
+  height: 40px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ettuceside{
+  background-image: url(./pictures/lettuse.jpg);
+  background-size: 300px;
+  height: 27px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
